@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 754px;
+    margin: auto;
+    padding-top: 28px;
+    padding-bottom: 161px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.info * {
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+#authors {
+    font-size:13px;
+}
+
+table {
+    border: 1px outset black;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px inset black;
+}
+
+pre {
+    overflow: auto;
+}
+.check-it {
+    border: 1px outset black;
+}
+
+.check-it h3 {
+    border: 1px inset black;
+    margin: 2px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.check-it div {
+    border: 1px inset black;
+    margin: 2px;
+}
+
+.check-it p {
+    margin: 2px;
+    padding: 6px;
+}
+
+.check-it code {
+    margin: 2px;
+    padding: 6px;
+}
+
+.table-listing {
+    margin: auto;
+    border: none;
+    padding: 8px;
+}
+
+.table-listing td {
+    margin: auto;
+    border: none;
+    width: 93px;
+    padding: 0px;
+}
+
+.reset-list {
+    list-style: none;
+    padding: 0;
+}
+.reset-list li {
+    margin-top: 10px;
+}
+
+.diagram {
+    text-align: center;
+}
+
+.diagram img {
+    max-width: 100%;
+    height: auto;
+}
